@@ -1,0 +1,789 @@
+{
+  "data": [
+    {
+      "expirationDate": "2021-01-04T19:38:29.039Z",
+      "fields": [
+        {
+          "field": {
+            "description": "string",
+            "id": "string",
+            "name": "string",
+            "required": true,
+            "sizeField": 0,
+            "status": "ATIVO",
+            "type": "NUMBER"
+          },
+          "id": "string",
+          "template": {
+            "fieldList": [
+              {
+                "description": "string",
+                "id": "string",
+                "name": "string",
+                "required": true,
+                "sizeField": 0,
+                "status": "ATIVO",
+                "type": "NUMBER"
+              }
+            ],
+            "id": "string",
+            "name": "string",
+            "status": "ATIVO",
+            "typeTemplate": "MEDICAL_REPORT"
+          },
+          "value": "string"
+        }
+      ],
+      "guideItems": [
+        {
+          "id": "string",
+          "material": {
+            "anvisa": "string",
+            "code": "string",
+            "description": "string",
+            "id": "string",
+            "manufacturer": {
+              "address": {
+                "address": "string",
+                "cep": "string",
+                "city": "string",
+                "complement": "string",
+                "neighborhood": "string",
+                "number": "string",
+                "uf": "string"
+              },
+              "cnpj": "string",
+              "createdDate": "2021-01-04T19:38:29.039Z",
+              "id": "string",
+              "name": "string",
+              "status": "ATIVO",
+              "suppliers": [
+                {
+                  "address": {
+                    "address": "string",
+                    "cep": "string",
+                    "city": "string",
+                    "complement": "string",
+                    "neighborhood": "string",
+                    "number": "string",
+                    "uf": "string"
+                  },
+                  "cnpj": "string",
+                  "id": "string",
+                  "manufacturerList": [
+                    null
+                  ],
+                  "name": "string",
+                  "status": "ATIVO"
+                }
+              ]
+            },
+            "name": "string",
+            "status": "ATIVO",
+            "supplier": {
+              "address": {
+                "address": "string",
+                "cep": "string",
+                "city": "string",
+                "complement": "string",
+                "neighborhood": "string",
+                "number": "string",
+                "uf": "string"
+              },
+              "cnpj": "string",
+              "id": "string",
+              "manufacturerList": [
+                null
+              ],
+              "name": "string",
+              "status": "ATIVO"
+            }
+          },
+          "materialCode": "string",
+          "materialName": "string",
+          "materialQuantity": 0
+        }
+      ],
+      "guideStatus": "CREATED",
+      "guideTemplate": {
+        "fieldList": [
+          {
+            "description": "string",
+            "id": "string",
+            "name": "string",
+            "required": true,
+            "sizeField": 0,
+            "status": "ATIVO",
+            "type": "NUMBER"
+          }
+        ],
+        "id": "string",
+        "name": "string",
+        "status": "ATIVO",
+        "typeTemplate": "MEDICAL_REPORT"
+      },
+      "historicGuides": [
+        {
+          "createdDate": "2021-01-04T19:38:29.039Z",
+          "description": "string",
+          "guide": {
+            "annexGuides": [
+              {
+                "id": "string",
+                "name": "string",
+                "path": "string"
+              }
+            ],
+            "doctor": {
+              "address": {
+                "address": "string",
+                "cep": "string",
+                "city": "string",
+                "complement": "string",
+                "neighborhood": "string",
+                "number": "string",
+                "uf": "string"
+              },
+              "birthDate": "2021-01-04T19:38:29.039Z",
+              "cbos": "string",
+              "clinicalStaff": true,
+              "cpf": "string",
+              "createdDate": "2021-01-04T19:38:29.039Z",
+              "crm": "string",
+              "email": "string",
+              "expertises": [
+                {
+                  "expertise": {
+                    "id": "string",
+                    "name": "string",
+                    "status": "ATIVO"
+                  },
+                  "id": "string",
+                  "principal": true,
+                  "workload": "string"
+                }
+              ],
+              "gender": "string",
+              "id": "string",
+              "issuanceDate": "2021-01-04T19:38:29.039Z",
+              "issuingOrgan": "string",
+              "name": "string",
+              "numCrm": "string",
+              "numIdentification": "string",
+              "owner": {
+                "address": {
+                  "address": "string",
+                  "cep": "string",
+                  "city": "string",
+                  "complement": "string",
+                  "neighborhood": "string",
+                  "number": "string",
+                  "uf": "string"
+                },
+                "ccm": "string",
+                "cnes": "string",
+                "cnpj": "string",
+                "contacts": [
+                  null
+                ],
+                "id": "string",
+                "identifierCode": "string",
+                "logoImage": "string",
+                "name": "string",
+                "status": "ATIVO"
+              },
+              "password": "string",
+              "registrationDate": "2021-01-04T19:38:29.039Z",
+              "rg": "string",
+              "roles": [
+                {
+                  "id": "string",
+                  "name": "Administrador"
+                }
+              ],
+              "status": "ATIVO",
+              "username": "string"
+            },
+            "expirationDate": "2021-01-04T19:38:29.039Z",
+            "fields": [
+              {
+                "field": {
+                  "description": "string",
+                  "id": "string",
+                  "name": "string",
+                  "required": true,
+                  "sizeField": 0,
+                  "status": "ATIVO",
+                  "type": "NUMBER"
+                },
+                "id": "string",
+                "template": {
+                  "fieldList": [
+                    {
+                      "description": "string",
+                      "id": "string",
+                      "name": "string",
+                      "required": true,
+                      "sizeField": 0,
+                      "status": "ATIVO",
+                      "type": "NUMBER"
+                    }
+                  ],
+                  "id": "string",
+                  "name": "string",
+                  "status": "ATIVO",
+                  "typeTemplate": "MEDICAL_REPORT"
+                },
+                "value": "string"
+              }
+            ],
+            "guideItems": [
+              {
+                "id": "string",
+                "material": {
+                  "anvisa": "string",
+                  "code": "string",
+                  "description": "string",
+                  "id": "string",
+                  "manufacturer": {
+                    "address": {
+                      "address": "string",
+                      "cep": "string",
+                      "city": "string",
+                      "complement": "string",
+                      "neighborhood": "string",
+                      "number": "string",
+                      "uf": "string"
+                    },
+                    "cnpj": "string",
+                    "createdDate": "2021-01-04T19:38:29.039Z",
+                    "id": "string",
+                    "name": "string",
+                    "status": "ATIVO",
+                    "suppliers": [
+                      {
+                        "address": {
+                          "address": "string",
+                          "cep": "string",
+                          "city": "string",
+                          "complement": "string",
+                          "neighborhood": "string",
+                          "number": "string",
+                          "uf": "string"
+                        },
+                        "cnpj": "string",
+                        "id": "string",
+                        "manufacturerList": [
+                          null
+                        ],
+                        "name": "string",
+                        "status": "ATIVO"
+                      }
+                    ]
+                  },
+                  "name": "string",
+                  "status": "ATIVO",
+                  "supplier": {
+                    "address": {
+                      "address": "string",
+                      "cep": "string",
+                      "city": "string",
+                      "complement": "string",
+                      "neighborhood": "string",
+                      "number": "string",
+                      "uf": "string"
+                    },
+                    "cnpj": "string",
+                    "id": "string",
+                    "manufacturerList": [
+                      null
+                    ],
+                    "name": "string",
+                    "status": "ATIVO"
+                  }
+                },
+                "materialCode": "string",
+                "materialName": "string",
+                "materialQuantity": 0
+              }
+            ],
+            "guideStatus": "CREATED",
+            "guideTemplate": {
+              "fieldList": [
+                {
+                  "description": "string",
+                  "id": "string",
+                  "name": "string",
+                  "required": true,
+                  "sizeField": 0,
+                  "status": "ATIVO",
+                  "type": "NUMBER"
+                }
+              ],
+              "id": "string",
+              "name": "string",
+              "status": "ATIVO",
+              "typeTemplate": "MEDICAL_REPORT"
+            },
+            "id": "string",
+            "numberProtocol": "string",
+            "observations": [
+              {
+                "description": "string",
+                "id": "string"
+              }
+            ],
+            "operator": {
+              "address": {
+                "address": "string",
+                "cep": "string",
+                "city": "string",
+                "complement": "string",
+                "neighborhood": "string",
+                "number": "string",
+                "uf": "string"
+              },
+              "contacts": [
+                null
+              ],
+              "email": "string",
+              "guideTemplate": {
+                "fieldList": [
+                  {
+                    "description": "string",
+                    "id": "string",
+                    "name": "string",
+                    "required": true,
+                    "sizeField": 0,
+                    "status": "ATIVO",
+                    "type": "NUMBER"
+                  }
+                ],
+                "id": "string",
+                "name": "string",
+                "status": "ATIVO",
+                "typeTemplate": "MEDICAL_REPORT"
+              },
+              "id": "string",
+              "name": "string",
+              "registerAns": "string",
+              "status": "ATIVO",
+              "telephone1": "string",
+              "telephone2": "string",
+              "webSite": "string"
+            },
+            "opme": true,
+            "patient": {
+              "address": {
+                "address": "string",
+                "cep": "string",
+                "city": "string",
+                "complement": "string",
+                "neighborhood": "string",
+                "number": "string",
+                "uf": "string"
+              },
+              "age": 0,
+              "birthDate": "2021-01-04T19:38:29.039Z",
+              "cellPhone": "string",
+              "cn": "string",
+              "cpf": "string",
+              "createdDate": "2021-01-04T19:38:29.039Z",
+              "gender": "string",
+              "healthCardNumber": "string",
+              "id": "string",
+              "issuanceDate": "2021-01-04T19:38:29.039Z",
+              "issuingOrgan": "string",
+              "name": "string",
+              "operator": {
+                "address": {
+                  "address": "string",
+                  "cep": "string",
+                  "city": "string",
+                  "complement": "string",
+                  "neighborhood": "string",
+                  "number": "string",
+                  "uf": "string"
+                },
+                "contacts": [
+                  null
+                ],
+                "email": "string",
+                "guideTemplate": {
+                  "fieldList": [
+                    {
+                      "description": "string",
+                      "id": "string",
+                      "name": "string",
+                      "required": true,
+                      "sizeField": 0,
+                      "status": "ATIVO",
+                      "type": "NUMBER"
+                    }
+                  ],
+                  "id": "string",
+                  "name": "string",
+                  "status": "ATIVO",
+                  "typeTemplate": "MEDICAL_REPORT"
+                },
+                "id": "string",
+                "name": "string",
+                "registerAns": "string",
+                "status": "ATIVO",
+                "telephone1": "string",
+                "telephone2": "string",
+                "webSite": "string"
+              },
+              "rg": "string",
+              "status": "ATIVO",
+              "telephones": [
+                {
+                  "id": "string",
+                  "telephone": "string"
+                }
+              ],
+              "whatsApp": true
+            },
+            "registeredGuide": "2021-01-04T19:38:29.039Z",
+            "status": "ATIVO",
+            "surgeryTypeList": [
+              {
+                "id": "string",
+                "materialList": [
+                  {
+                    "id": "string",
+                    "material": {
+                      "anvisa": "string",
+                      "code": "string",
+                      "description": "string",
+                      "id": "string",
+                      "manufacturer": {
+                        "address": {
+                          "address": "string",
+                          "cep": "string",
+                          "city": "string",
+                          "complement": "string",
+                          "neighborhood": "string",
+                          "number": "string",
+                          "uf": "string"
+                        },
+                        "cnpj": "string",
+                        "createdDate": "2021-01-04T19:38:29.039Z",
+                        "id": "string",
+                        "name": "string",
+                        "status": "ATIVO",
+                        "suppliers": [
+                          {
+                            "address": {
+                              "address": "string",
+                              "cep": "string",
+                              "city": "string",
+                              "complement": "string",
+                              "neighborhood": "string",
+                              "number": "string",
+                              "uf": "string"
+                            },
+                            "cnpj": "string",
+                            "id": "string",
+                            "manufacturerList": [
+                              null
+                            ],
+                            "name": "string",
+                            "status": "ATIVO"
+                          }
+                        ]
+                      },
+                      "name": "string",
+                      "status": "ATIVO",
+                      "supplier": {
+                        "address": {
+                          "address": "string",
+                          "cep": "string",
+                          "city": "string",
+                          "complement": "string",
+                          "neighborhood": "string",
+                          "number": "string",
+                          "uf": "string"
+                        },
+                        "cnpj": "string",
+                        "id": "string",
+                        "manufacturerList": [
+                          null
+                        ],
+                        "name": "string",
+                        "status": "ATIVO"
+                      }
+                    },
+                    "materialQuantity": 0,
+                    "status": "ATIVO"
+                  }
+                ],
+                "name": "string",
+                "quantity": 0,
+                "status": "ATIVO"
+              }
+            ]
+          },
+          "guideStatus": "CREATED",
+          "id": "string",
+          "updatedDate": "2021-01-04T19:38:29.039Z",
+          "user": {
+            "address": {
+              "address": "string",
+              "cep": "string",
+              "city": "string",
+              "complement": "string",
+              "neighborhood": "string",
+              "number": "string",
+              "uf": "string"
+            },
+            "birthDate": "2021-01-04T19:38:29.039Z",
+            "clinicalStaff": true,
+            "cpf": "string",
+            "email": "string",
+            "gender": "string",
+            "id": "string",
+            "issuanceDate": "2021-01-04T19:38:29.039Z",
+            "issuingOrgan": "string",
+            "name": "string",
+            "numIdentification": "string",
+            "owner": {
+              "address": {
+                "address": "string",
+                "cep": "string",
+                "city": "string",
+                "complement": "string",
+                "neighborhood": "string",
+                "number": "string",
+                "uf": "string"
+              },
+              "ccm": "string",
+              "cnes": "string",
+              "cnpj": "string",
+              "contacts": [
+                null
+              ],
+              "id": "string",
+              "identifierCode": "string",
+              "logoImage": "string",
+              "name": "string",
+              "status": "ATIVO"
+            },
+            "password": "string",
+            "registrationDate": "2021-01-04T19:38:29.039Z",
+            "rg": "string",
+            "roles": [
+              {
+                "id": "string",
+                "name": "Administrador"
+              }
+            ],
+            "status": "ATIVO",
+            "username": "string"
+          }
+        }
+      ],
+      "id": "string",
+      "numberProtocol": "string",
+      "observations": [
+        {
+          "description": "string",
+          "id": "string"
+        }
+      ],
+      "operator": {
+        "address": {
+          "address": "string",
+          "cep": "string",
+          "city": "string",
+          "complement": "string",
+          "neighborhood": "string",
+          "number": "string",
+          "uf": "string"
+        },
+        "contacts": [
+          null
+        ],
+        "email": "string",
+        "guideTemplate": {
+          "fieldList": [
+            {
+              "description": "string",
+              "id": "string",
+              "name": "string",
+              "required": true,
+              "sizeField": 0,
+              "status": "ATIVO",
+              "type": "NUMBER"
+            }
+          ],
+          "id": "string",
+          "name": "string",
+          "status": "ATIVO",
+          "typeTemplate": "MEDICAL_REPORT"
+        },
+        "id": "string",
+        "name": "string",
+        "registerAns": "string",
+        "status": "ATIVO",
+        "telephone1": "string",
+        "telephone2": "string",
+        "webSite": "string"
+      },
+      "opme": true,
+      "patient": {
+        "address": {
+          "address": "string",
+          "cep": "string",
+          "city": "string",
+          "complement": "string",
+          "neighborhood": "string",
+          "number": "string",
+          "uf": "string"
+        },
+        "age": 0,
+        "birthDate": "2021-01-04T19:38:29.039Z",
+        "cellPhone": "string",
+        "cn": "string",
+        "cpf": "string",
+        "createdDate": "2021-01-04T19:38:29.039Z",
+        "gender": "string",
+        "healthCardNumber": "string",
+        "id": "string",
+        "issuanceDate": "2021-01-04T19:38:29.039Z",
+        "issuingOrgan": "string",
+        "name": "string",
+        "operator": {
+          "address": {
+            "address": "string",
+            "cep": "string",
+            "city": "string",
+            "complement": "string",
+            "neighborhood": "string",
+            "number": "string",
+            "uf": "string"
+          },
+          "contacts": [
+            null
+          ],
+          "email": "string",
+          "guideTemplate": {
+            "fieldList": [
+              {
+                "description": "string",
+                "id": "string",
+                "name": "string",
+                "required": true,
+                "sizeField": 0,
+                "status": "ATIVO",
+                "type": "NUMBER"
+              }
+            ],
+            "id": "string",
+            "name": "string",
+            "status": "ATIVO",
+            "typeTemplate": "MEDICAL_REPORT"
+          },
+          "id": "string",
+          "name": "string",
+          "registerAns": "string",
+          "status": "ATIVO",
+          "telephone1": "string",
+          "telephone2": "string",
+          "webSite": "string"
+        },
+        "rg": "string",
+        "status": "ATIVO",
+        "telephones": [
+          {
+            "id": "string",
+            "telephone": "string"
+          }
+        ],
+        "whatsApp": true
+      },
+      "registeredGuide": "2021-01-04T19:38:29.039Z",
+      "status": "ATIVO",
+      "surgeryTypeList": [
+        {
+          "id": "string",
+          "materialList": [
+            {
+              "id": "string",
+              "material": {
+                "anvisa": "string",
+                "code": "string",
+                "description": "string",
+                "id": "string",
+                "manufacturer": {
+                  "address": {
+                    "address": "string",
+                    "cep": "string",
+                    "city": "string",
+                    "complement": "string",
+                    "neighborhood": "string",
+                    "number": "string",
+                    "uf": "string"
+                  },
+                  "cnpj": "string",
+                  "createdDate": "2021-01-04T19:38:29.039Z",
+                  "id": "string",
+                  "name": "string",
+                  "status": "ATIVO",
+                  "suppliers": [
+                    {
+                      "address": {
+                        "address": "string",
+                        "cep": "string",
+                        "city": "string",
+                        "complement": "string",
+                        "neighborhood": "string",
+                        "number": "string",
+                        "uf": "string"
+                      },
+                      "cnpj": "string",
+                      "id": "string",
+                      "manufacturerList": [
+                        null
+                      ],
+                      "name": "string",
+                      "status": "ATIVO"
+                    }
+                  ]
+                },
+                "name": "string",
+                "status": "ATIVO",
+                "supplier": {
+                  "address": {
+                    "address": "string",
+                    "cep": "string",
+                    "city": "string",
+                    "complement": "string",
+                    "neighborhood": "string",
+                    "number": "string",
+                    "uf": "string"
+                  },
+                  "cnpj": "string",
+                  "id": "string",
+                  "manufacturerList": [
+                    null
+                  ],
+                  "name": "string",
+                  "status": "ATIVO"
+                }
+              },
+              "materialQuantity": 0,
+              "status": "ATIVO"
+            }
+          ],
+          "name": "string",
+          "quantity": 0,
+          "status": "ATIVO"
+        }
+      ]
+    }
+  ],
+  "errors": [
+    "string"
+  ]
+}
